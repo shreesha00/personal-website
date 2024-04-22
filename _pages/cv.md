@@ -11,54 +11,28 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Distributed Systems, University of Illinois Urbana-Champaign, 2028 (expected)
+* Dual Degree (BTech + MTech) in Computer Science & Engineering, Indian Institute of Technology Madras, 2023
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Research Assistant, DASSL Lab, UIUC -- Aug '23 - present
+  * Designing and building high-performance systems for the modern datacenter.  
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Research Intern, Microsoft Research India -- Aug '22 - Jul '23
+  * Worked on improving reliability of Azure Cloud Services using concurrency testing tools such as Coyote for C++ programs.
+  * Built a deterministic concurrency testing framework for a production scale replication library, Azure RSL, which provides an implementation of the Paxos consensus algorithm. Implemented several optimizations to improve state-space coverage.
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Research Fellow, IIT Madras -- Sep '20 - Jul '23
+  * Investigated cutoff-based techniques for verifying that distributed protocols meet their specification irrespective of the size of the parameter they are instantiated with (such as number of nodes).
+  * Proposed a framework to mechanize simulation based proofs for cutoffs and applied the approach on a variety of distributed protocols using Z3 as a backend SMT solver.
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
+
+CV
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+Latest version of my CV can be found [here](https://shreesha00.github.io/files/cv.pdf)
